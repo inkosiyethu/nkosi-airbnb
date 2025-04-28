@@ -1,0 +1,29 @@
+.popUpContainer {
+  width: 150px;
+  height: fit-content;
+  border: 1px solid var(--grey-border);
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.popUpContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+  height: 100%;
+}
+
+.popUpContent a {
+  color: #000;
+  text-decoration: none;
+}
+
+.popUpContent p {
+  color: #000;
+  text-decoration: none;
+}
